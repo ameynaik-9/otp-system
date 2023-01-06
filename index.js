@@ -55,8 +55,7 @@ app.post('/send', (req, res) => {
         <li>Email: ${req.body.email}</li>
         <li>Phone: ${req.body.phone}</li>
         </ul>
-        <h3>Message</h3>
-        <p>${req.body.message}</p>
+        <h2>Here's your Otp!!!!!</h2>
         <h1>${otp}</h1>
         `
     };
